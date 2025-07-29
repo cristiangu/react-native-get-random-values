@@ -46,15 +46,6 @@ target_link_libraries(
   sodiumcpp
   fbjni::fbjni
   ReactAndroid::jsi
-  ReactAndroid::turbomodulejsijni
-  ReactAndroid::react_nativemodule_core
-  ReactAndroid::react_render_core
-  ReactAndroid::runtimeexecutor
-  ReactAndroid::fabricjni
-  ReactAndroid::react_debug
-  ReactAndroid::react_render_core
-  ReactAndroid::react_render_componentregistry
-  ReactAndroid::rrc_view
-  ReactAndroid::folly_runtime
+  ReactAndroid::reactnative
   react-native-nitro-modules::NitroModules  # <-- NitroModules Core :)
   )
