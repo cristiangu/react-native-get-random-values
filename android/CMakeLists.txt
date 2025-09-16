@@ -41,11 +41,10 @@ set_target_properties(
 # Link all libraries together
 target_link_libraries(
   ${PACKAGE_NAME}
-  ${LOG_LIB}           
+  ${LOG_LIB}
   android
   sodiumcpp
   fbjni::fbjni
   ReactAndroid::jsi
-  ReactAndroid::reactnative
   react-native-nitro-modules::NitroModules  # <-- NitroModules Core :)
   )
