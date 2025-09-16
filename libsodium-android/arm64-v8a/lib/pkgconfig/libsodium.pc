@@ -1,10 +1,10 @@
-prefix=/Users/mattiaferrari/Desktop/repo/libsodium/libsodium-android-armv8-a+crypto
+prefix=/Users/cristiangutu/Projects/libsodium/libsodium-android-armv8-a+crypto
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: libsodium
-Version: 1.0.21
+Version: 1.0.20
 Description: A modern and easy-to-use crypto library
 
 Libs: -L${libdir} -lsodium
