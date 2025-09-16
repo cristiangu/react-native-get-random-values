@@ -48,3 +48,5 @@ target_link_libraries(
   ReactAndroid::jsi
   react-native-nitro-modules::NitroModules  # <-- NitroModules Core :)
   )
+
+target_link_options(${CMAKE_PROJECT_NAME} PRIVATE "-Wl,-z,max-page-size=16384")
